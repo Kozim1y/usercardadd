@@ -20,6 +20,7 @@ elForm.addEventListener("submit", function (evt) {
 
   let newCard = document.createElement("div");
   newCard.setAttribute("class", "card");
+
   let newUserName = document.createElement("p");
   let newUserLastName = document.createElement("p");
   let newUserAge = document.createElement("p");
