@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Add user!</title>
+</head>
+<body>
+  <div class="container">
+    <form class="form-js" autocomplete="off">
+      <label class="username-label" for="username">Ismingizni kiriting:</label>
+      <input class="username-input" type="text" id="username" placeholder="ism" required>
+  
+      <label class="user-lastname-label" for="userlastname">Familiyangizni kiriting:</label>
+      <input class="user-lastname-input" type="text" id="userlastname" placeholder="familiya" required>
+  
+      <label class="user-age-label" for="userage">Yoshingizni kiriting:</label>
+      <input class="user-age-input" type="number" id="userage" placeholder="yosh" required>
+  
+      <label class="user-tel-label" for="usertelnumber">Telefon raqaminggizni kiriting</label>
+      <input class="user-tel-input" type="number" id="usertelnumber" placeholder="tel" required>
+      <button class="add-btn">Qo'shish</button>
+    </form>
+
+    <div class="cards"></div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
